@@ -30,7 +30,7 @@ public class Principal {
                     System.out.println("Opción inválida, ingrese una opción de la lista.");
                     continue;
                 }
-                System.out.println("Ingrese el monto.");
+                System.out.println("Ingrese el monto:");
                 var amount = Double.valueOf(montoIngresado.nextLine());
                 String primerMoneda = "";
                 String segundaMoneda = "";
